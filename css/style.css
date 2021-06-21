@@ -1,0 +1,53 @@
+.jumbotron{
+    padding: 20px;
+}
+#form{
+    text-align: center;
+    padding: 20px;
+    
+}
+.input{
+    border-radius: 5px;
+    border-color: #2780e3;
+    width: 80%;
+    padding: 5px;
+   
+}
+.bt{
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: #2780e3;
+    color: rgb(252, 251, 249);
+    border-color: #2780e3 ;
+    
+}
+.loading{
+    text-align: center;
+    display: none;
+}
+.result{
+    text-align: center;
+}
+.error{
+    text-align: center;
+}
+.lead{
+   font-weight: 300;
+   
+    
+}
+.offcanvas-header{
+   
+    padding: 20px;
+    padding-bottom: 70px;
+    background-color: #2780e3;
+    color: rgb(250, 253, 250);
+}
+.sidemenu{
+    padding-top: 20px;
+    padding-right: 32px;
+}
+.sidemenuitem{
+    padding: 10px;
+    font-size: larger;
+}
