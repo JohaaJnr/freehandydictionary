@@ -39,26 +39,27 @@ $(document).ready(function(){
                    
                 for(j=0; j<meaning.length; j++){
                     let def = meaning[j].definitions[0];
+                   
                     let syno = def.synonyms;
+                    
                     let exampl = def.example;
                    
                    $('.list').append(`
                     <h2><span class="lead">${def.definition}</span></h2>
                    `);
-                   $('.simi').append(`
-                        <h2><span class="lead">${syno}</span></h2>
-                   `);
-                   $('.ex').append(`
-                        <h2><span class="lead">${exampl}</span></h2>
-                   `);
+                   $.each(syno, function(k){
+                    $('.simi').append(`
+                    <h2><span class="lead">${syno[k]}</span></h2>
+                        `);
+                   });
+                  
+                    $('.ex').append(`
+                    <h2><span class="lead">${exampl}</span></h2>
+                        `);
+  
                 }
-
-
-
-                }
-
-               
             }
+         }
         ).fail(function(){
             $('.loading').hide();
             $('.error').html(`

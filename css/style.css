@@ -27,6 +27,8 @@
 }
 .result{
     text-align: center;
+    padding: 20px;
+    width: 100%;
 }
 .error{
     text-align: center;
