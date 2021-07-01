@@ -7,8 +7,12 @@
     
 }
 .input{
-    border-radius: 5px;
+    
     border-color: #2780e3;
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
     width: 80%;
     padding: 5px;
    
@@ -19,6 +23,7 @@
     background-color: #2780e3;
     color: rgb(252, 251, 249);
     border-color: #2780e3 ;
+    border-style: hidden;
     
 }
 .loading{
